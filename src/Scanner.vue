@@ -89,8 +89,8 @@ export default {
         inputStream: {
           type: 'LiveStream',
           constraints: {
-            width: { min: this.readerSize.width },
-            height: { min: this.readerSize.height },
+            width:  this.readerSize.width ,
+            height: this.readerSize.height,
             facingMode: 'environment',
             aspectRatio: { min: 1, max: 2 },
           },
